@@ -14,7 +14,7 @@ let student_arr: { name: string, sex: string, result: number, [k:string]:any }[]
     {name: '小光', sex: '男', result: 0}
 ]
 // filter map
-const filter_result = (students:{ name: string, sex: string, result: number ,[k:string]:any}[]):void => {
+const filter_result = (students:{ name: string, sex: string, result: number ,[k:string]:any}[]):void => {``
     student_arr = students.map(i => {
         let res:string = ''
         i.result >= result_mune.reach && (res = '合格')
